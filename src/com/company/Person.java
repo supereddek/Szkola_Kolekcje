@@ -33,7 +33,21 @@ public class Person {
     }
 
     public void printGrades() {
+        System.out.println("Oceny z HashMap:");
         System.out.println(gradesHM);
+        System.out.println("Oceny z TreeMap");
         System.out.println(gradesTM);
+    }
+
+    public String getFirstName() {
+        return this.firstName;
+    }
+
+    public String getLastName() {
+        return this.lastName;
+    }
+
+    public void getGrades() {
+        System.out.println("");
     }
 }
