@@ -3,6 +3,7 @@ package com.company;
 import java.util.HashMap;
 import java.util.Scanner;
 import java.util.TreeMap;
+import java.util.stream.StreamSupport;
 
 public class Person {
 
@@ -37,6 +38,7 @@ public class Person {
         System.out.println(gradesHM);
         System.out.println("Oceny z TreeMap");
         System.out.println(gradesTM);
+        System.out.println();
     }
 
     public String getFirstName() {
